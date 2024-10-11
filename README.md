@@ -15,4 +15,4 @@ Add contents of the /firefox folder to the directory your browser executable is 
 
 ## THEME IS CURRENTLY WORK IN PROGRESS, MORE IMPROVEMENTS COMING
 
-big thanks to !(Valkalyne](https://github.com/valkalyne} and ![ThePhantom6314](https://ThePhantom6314) for help and longhorn plex ui resources
+big thanks to !(Valkalyne](https://github.com/valkalyne) and ![ThePhantom6314](https://ThePhantom6314) for help and longhorn plex ui resources
