@@ -1,6 +1,10 @@
 # Longfox-Plexplorer
 userchrome theme for Firefox ESR 115 to make it look more like Longhorn Plex demo Internet Explorer
 
+![alt text](https://github.com/notzetkin/Longfox-Plexplorer/blob/master/image.png?raw=true)
+
+![alt text](https://github.com/notzetkin/Longfox-Plexplorer/blob/master/image2.png?raw=true)
+
 ## Setup
 
 Add contents of the /firefox folder to the directory your browser executable is installed in and the /chrome folder to your Firefox profile folder respectively. You can find your profile folder location in Help > More troubleshooting information > Profile folder.
