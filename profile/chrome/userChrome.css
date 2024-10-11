@@ -675,7 +675,7 @@ border-top-left-radius: 10px !important;
 }
 
 #PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon {
-  margin-top: -10px !important;
+  margin-top: -8px !important;
   margin-bottom: 0px !important;
   margin-right: -30px !important;
 }
@@ -766,4 +766,5 @@ findbar {
 	content: url("def.svg");
 	box-shadow: 2px 2px 5px rgba(0,51,160,0.3) ;
     height: 26px;
+	margin-top: -2px;
 }
