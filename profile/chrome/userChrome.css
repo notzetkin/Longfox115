@@ -366,10 +366,10 @@ background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(250,250,252
   height: 38px !important;
 }
 
-.bookmark-item > .toolbarbutton-icon  {
+#PlacesToolbarItems .bookmark-item > .toolbarbutton-icon  {
   padding: 0px !important;
-  width: 32px !important;
-  height: 32px !important;
+  width: 16px !important;
+  height: 16px !important;
   list-style-image: url("s.png") !important;
 }
 
@@ -675,9 +675,9 @@ border-top-left-radius: 10px !important;
 }
 
 #PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon {
-  margin-inline-end: 0;
-  margin-top: -4px !important;
-  margin-bottom: 4px !important;
+  margin-top: -10px !important;
+  margin-bottom: 0px !important;
+  margin-right: -30px !important;
 }
 
 #urlbar:not(.searchButton) > #urlbar-input-container > #identity-box[pageproxystate="invalid"] #identity-icon {
@@ -760,4 +760,10 @@ findbar {
 
 .close-icon:hover {
   background-color: transparent !important;
+}
+
+#PlacesToolbarItems .bookmark-item::before {
+	content: url("def.svg");
+	box-shadow: 2px 2px 5px rgba(0,51,160,0.3) ;
+    height: 26px;
 }
