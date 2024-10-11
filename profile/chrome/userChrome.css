@@ -432,6 +432,7 @@ background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAPCAY
 #tracking-protection-icon-container:hover,
 .identity-box-button:hover:active,
 #tracking-protection-icon-container:hover:active,
+#tracking-protection-icon-container[open=true],
 .identity-box-button[open=true],
 .urlbar-page-action:hover,
 .urlbar-page-action:hover:active {
@@ -443,7 +444,7 @@ background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAPCAY
 }
 
 #urlbar[breakout][breakout-extend] .urlbar-page-action {
-	padding-right: 0px !important;
+	margin-right: 9px !important;
 }
 
 #statuspanel {
@@ -577,6 +578,8 @@ border-top-left-radius: 10px !important;
 #urlbar[breakout][breakout-extend] #urlbar-input-container {
   background-color: transparent !important;
   background: none !important;
+  margin-left: 10px !important;
+  margin-right: 20px !important;
 }
 
 #identity-box {
@@ -641,8 +644,7 @@ border-top-left-radius: 10px !important;
   filter: sepia(100%) hue-rotate(190deg) saturate(500%) !important;
 }
 
-#urlbar[breakout][breakout-extend] #identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
-#urlbar[breakout][breakout-extend] #identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
+#urlbar[breakout][breakout-extend] .identity-box-button {
 	visibility:collapse !important;
 }
 
