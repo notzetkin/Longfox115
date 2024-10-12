@@ -677,9 +677,14 @@ border-top-left-radius: 10px !important;
 }
 
 #PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon {
-  margin-top: -8px !important;
-  margin-bottom: 0px !important;
-  margin-right: -30px !important;
+  margin-top: -18px !important;
+  margin-bottom: 10px !important;
+  margin-right: 0px !important;
+  filter: sepia(100%) hue-rotate(190deg) saturate(500%) !important;
+}
+
+#PlacesToolbarItems > .bookmark-item:hover > .toolbarbutton-icon, #PlacesToolbarItems > .bookmark-item:hover:active > .toolbarbutton-icon {
+  filter: unset !important;
 }
 
 #urlbar:not(.searchButton) > #urlbar-input-container > #identity-box[pageproxystate="invalid"] #identity-icon {
@@ -766,7 +771,8 @@ findbar {
 
 #PlacesToolbarItems .bookmark-item::before {
 	content: url("def.svg");
-	box-shadow: 2px 2px 5px rgba(0,51,160,0.3) ;
+    box-shadow: 2px 2px 5px rgba(0,51,160,0.3);
     height: 26px;
-	margin-top: -2px;
+    margin-top: -2px;
+    width: 34px !important;
 }
