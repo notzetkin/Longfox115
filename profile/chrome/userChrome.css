@@ -189,8 +189,8 @@ background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(250,250,252
 }
 
 #TabsToolbar .toolbarbutton-1 {
-  margin: 0 0 var(--tabs-navbar-shadow-size);
-  height: 18px !important;
+  margin-bottom: 0px !important;
+  color: #2b5e8f !important;
 }
 
 #tabbrowser-tabs, #tabbrowser-arrowscrollbox, #tabbrowser-tabs[positionpinnedtabs] > #tabbrowser-arrowscrollbox > .tabbrowser-tab[pinned] {
@@ -379,7 +379,7 @@ background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(250,250,252
 
 #additional_top_toolbar2 toolbarbutton:not(#sidebar-button) .toolbarbutton-text, #nav-bar toolbarbutton:not(#back-button):not(#forward-button):not(#unified-extensions-button):not(#nav-bar-overflow-button):not(#PanelUI-menu-button) .toolbarbutton-text, #TabsToolbar-customization-target toolbarbutton:not(#sidebar-button) .toolbarbutton-text {
   display: unset !important;
-}
+  }
 
 #nav-bar .toolbarbutton-1 > .toolbarbutton-text, .bookmark-item > .toolbarbutton-text {
   padding-top: 0px !important;
@@ -389,13 +389,19 @@ background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(250,250,252
   width: 70px !important;
 }
 
-#additional_top_toolbar2 .toolbarbutton-1 > .toolbarbutton-text, #TabsToolbar-customization-target .toolbarbutton-1 > .toolbarbutton-text
-{
+#additional_top_toolbar2 .toolbarbutton-1 > .toolbarbutton-text{
 	padding: 4px !important;
     min-height: 8pt !important;
 	color: menutext !important;
 	opacity:1 !important;
 	text-shadow: -2px 2px 5px #0033A099 !important;
+}
+
+#TabsToolbar-customization-target .toolbarbutton-1 > .toolbarbutton-text{
+	padding: 4px !important;
+    min-height: 8pt !important;
+	color: #2b5e8f !important;
+	opacity:1 !important;
 }
 
 #additional_top_toolbar2 .toolbarbutton-1 {
@@ -533,7 +539,7 @@ background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(250,250,2
 margin-bottom: 10px !important;
 border-left: 3px solid transparent !important;
 border-right: 3px solid transparent !important;
-border-bottom: 3px solid white !important;
+border-bottom: 1px solid white !important;
 border-top: 0px !important;
 background-color: rgb(255,255,255) !important;
 background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgb(79, 126, 180) 100%) !important;
@@ -541,6 +547,7 @@ border-bottom-left-radius: 15px !important;
 border-bottom-right-radius: 15px !important;
 border-top-right-radius: 15px !important;
   margin-top: -1px !important;
+  box-shadow: 0px 4px 8px white;
 }
 
 #tabbrowser-tabpanels {
@@ -553,6 +560,14 @@ margin-right: -2px !important;
 margin-top: 1px !important;
 margin-bottom: -3px !important;
 padding:2px !important;
+border-bottom-width: 1px !important;
+}
+
+.browserSidebarContainer {
+margin-left: -5px !important;
+margin-top: -5px !important;
+margin-right: 7px !important;
+margin-bottom: 3px !important;
 }
 
 #navigator-toolbox {
@@ -634,9 +649,11 @@ border-top-left-radius: 10px !important;
   border: 1px solid transparent !important;
 }
 
-#new-tab-button {
+#tabs-newtab-button, #new-tab-button {
 	list-style-image: url("tab.svg") !important;
 }
+
+
 
 #identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
 #identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
@@ -732,7 +749,7 @@ findbar {
 #alltabs-button .toolbarbutton-text::before {
   content: 'all tabs';
   color: #84b2fb;
-  margin-top: 3px;
+  margin-top: 4px;
   text-shadow: none !important;
 }
 
@@ -744,7 +761,7 @@ findbar {
 }
 
  #alltabs-button {
-	 margin-top: 3px !important;
+	 margin-top: -4px !important;
   display: flex !important;
   flex-direction: row !important;
   margin-right: 15px !important;
