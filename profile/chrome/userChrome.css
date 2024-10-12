@@ -679,7 +679,7 @@ border-top-left-radius: 10px !important;
 #PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon {
   margin-top: -18px !important;
   margin-bottom: 10px !important;
-  margin-right: 0px !important;
+  margin-right: -1px !important;
   filter: sepia(100%) hue-rotate(190deg) saturate(500%) !important;
 }
 
