@@ -1,4 +1,4 @@
-# Longfox-Plexplorer
+# Longfox115
 userchrome theme for Firefox ESR 115 to make it look more like Longhorn Plex demo Internet Explorer. Intended to be used with ![Windows Longhorn Plex theme](https://github.com/valkalyne/demoplex).
 
 ![alt text](https://github.com/notzetkin/Longfox-Plexplorer/blob/master/image.png?raw=true)
